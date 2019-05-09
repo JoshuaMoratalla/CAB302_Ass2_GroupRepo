@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ced314e-fc48-4fea-9b96-0a792a3acf1f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/testingArea/canvastesting/BasicFrame.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/testingArea/canvastesting/FrameWithMenu.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="850">
+                  <caret line="52" column="48" lean-forward="true" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/testingArea/canvastesting/AddingDropDownMenus.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/testingArea/canvastesting/FrameWithCanvas.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/testingArea/layoutTesting/boxlayoutTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/testingArea/multiTabbing/Drawing.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/testingArea/multiTabbing/mainFrame.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="21" column="12" selection-start-line="20" selection-start-column="61" selection-end-line="21" selection-end-column="12" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/testingArea/multiTabbing/multiTabTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/testingArea/SwingPaintDemo1.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/testingArea/JFrameTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="27" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/testingArea/canvastesting/DrawingBoardWithMatrix.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>shapes</find>
+      <find>paint</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/testJFrame.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/testJFrame.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/TestJFrame.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/SwingPaintDemo1.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/JFrameTest.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/multiTabbing/Tab.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/testMain.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/multiTabbing/Tabs.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/multiTabbing/multiTabTest.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/multiTabbing/mainFrame.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/multiTabbing/Drawing.java" />
+        <option value="$PROJECT_DIR$/src/week8/BoxLayoutDemo.java" />
+        <option value="$PROJECT_DIR$/src/week8/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/week8/PanelDemoModel.java" />
+        <option value="$PROJECT_DIR$/src/week8/PanelDemo4.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/layoutTesting/boxlayoutTest.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/layoutTesting/MouseDrag.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/canvastesting/MouseDrawnBoard.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/canvastesting/BasicCanvas.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/canvastesting/BasicFrame.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/canvastesting/AddingDropDownMenus.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/canvastesting/FrameWithMenu.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/canvastesting/FrameWithCanvas.java" />
+        <option value="$PROJECT_DIR$/src/testingArea/canvastesting/DrawingBoardWithMatrix.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CAB302_CanvasEditor_Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAB302_CanvasEditor_Assignment2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CAB302_CanvasEditor_Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAB302_CanvasEditor_Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CAB302_CanvasEditor_Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAB302_CanvasEditor_Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testingArea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CAB302_CanvasEditor_Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAB302_CanvasEditor_Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testingArea" type="462c0819:PsiDirectoryNode" />
+              <item name="canvastesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CAB302_CanvasEditor_Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAB302_CanvasEditor_Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testingArea" type="462c0819:PsiDirectoryNode" />
+              <item name="layoutTesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557377016706" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Uni/CAB302/lec09-gui" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Joshua\IdeaProjects\CAB302_CanvasEditor_Assignment2\src" />
+      <recent name="C:\Users\Joshua\IdeaProjects\CAB302_CanvasEditor_Assignment2\src\week8" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DrawingBoardWithMatrix">
+    <configuration name="AddingDropDownMenus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testingArea.canvastesting.AddingDropDownMenus" />
+      <module name="CAB302_CanvasEditor_Assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingArea.canvastesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testingArea.canvastesting.BasicFrame" />
+      <module name="CAB302_CanvasEditor_Assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingArea.canvastesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrawingBoardWithMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testingArea.canvastesting.DrawingBoardWithMatrix" />
+      <module name="CAB302_CanvasEditor_Assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingArea.canvastesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameWithCanvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testingArea.canvastesting.FrameWithCanvas" />
+      <module name="CAB302_CanvasEditor_Assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingArea.canvastesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameWithMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testingArea.canvastesting.FrameWithMenu" />
+      <module name="CAB302_CanvasEditor_Assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingArea.canvastesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AddingDropDownMenus" />
+      <item itemvalue="Application.BasicFrame" />
+      <item itemvalue="Application.DrawingBoardWithMatrix" />
+      <item itemvalue="Application.FrameWithMenu" />
+      <item itemvalue="Application.FrameWithCanvas" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DrawingBoardWithMatrix" />
+        <item itemvalue="Application.FrameWithCanvas" />
+        <item itemvalue="Application.FrameWithMenu" />
+        <item itemvalue="Application.AddingDropDownMenus" />
+        <item itemvalue="Application.BasicFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ced314e-fc48-4fea-9b96-0a792a3acf1f" name="Default Changelist" comment="" />
+      <created>1556705270503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556705270503</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.17430703" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.10725894" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/testingArea/multiTabbing.java" />
+    <entry file="file://$PROJECT_DIR$/src/testingArea/multiTabbing/Tabs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/testMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/week8/FlowDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/FileContentReader.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/BorderDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/AllEvents.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/PanelDemo5.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/PanelDemo2.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/observer/Subject.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/observer/Observer.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/PanelDemoController.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/FillDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/TopLevelDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/BoxLayoutDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/observer/Observer.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/HelloWorldSwing.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/PanelDemo3.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/PanelDemoModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/MDIDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/week8/PanelDemo4.java" />
+    <entry file="file://$PROJECT_DIR$/src/observer/Subject.java" />
+    <entry file="file://$PROJECT_DIR$/src/testingArea/canvastesting/MouseDrawnBoard.java" />
+    <entry file="file://$PROJECT_DIR$/src/testingArea/canvastesting/FrameWithMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="52" column="48" lean-forward="true" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/canvastesting/BasicFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/canvastesting/AddingDropDownMenus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/canvastesting/DrawingBoardWithMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/canvastesting/FrameWithCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/layoutTesting/MouseDrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/layoutTesting/boxlayoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/multiTabbing/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/multiTabbing/mainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="12" selection-start-line="20" selection-start-column="61" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/multiTabbing/multiTabTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/JFrameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/SwingPaintDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
