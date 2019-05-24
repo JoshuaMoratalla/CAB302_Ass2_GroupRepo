@@ -1,20 +1,40 @@
 package GUI;
 
+import org.w3c.dom.Text;
+
 import javax.swing.*;
 import javax.swing.event.MouseInputListener;
+import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.net.ContentHandler;
+import java.nio.file.spi.FileTypeDetector;
+
+/**
+ *
+ *
+ *
+ *
+ *
+ * This class is to set up GUI components and outlines.
+ *
+ *
+ *
+ *
+ * @author Abdulrahman Albaqami n10382241
+ *
+ * **/
 
 public class VECGUI extends JFrame implements ActionListener, Runnable{
 
     private static final long serialVersionUID = 1L;
 
-    //JPanel MainPanel = new JPanel();
     DrawPanel drawPanel = new DrawPanel();
 
     JMenuBar MenuBar = new JMenuBar();
@@ -35,11 +55,13 @@ public class VECGUI extends JFrame implements ActionListener, Runnable{
     JButton FillColor = new JButton("Fill Color");
     JButton LineColor = new JButton("Line Color");
     ImageIcon icon = new ImageIcon("Icons/icons8-line-16.png");
-
     File saveFile = null;
 
     // Told what kind of shape to draw when the user clicks/drags, etc. Over the draw area
-
+    /**
+     *
+     *
+     * **/
     public VECGUI() {
 
         super("VEC Application");
@@ -52,15 +74,23 @@ public class VECGUI extends JFrame implements ActionListener, Runnable{
         });
     }
 
+    /**
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     **/
     void init()
     {
 
-        //MainPanel.setLayout(new BorderLayout());
         setLayout(new BorderLayout());
         setSize(500,500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //pack();
-        setLocation(new Point(100, 100));
         setVisible(true);
 
         // Draw Area
@@ -73,50 +103,65 @@ public class VECGUI extends JFrame implements ActionListener, Runnable{
         OpenFileChoser.setFileFilter(new FileNameExtensionFilter("VEC File",".vec"));
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
-        // add colore chooser
+
+
+        // Is to add color fill chooser
         FillColor.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
             JColorChooser Fill = new JColorChooser();
             Color color = Fill.showDialog(null, "Please choose color", Color.RED);
-            //here could be any shape
+            drawPanel.setFillColor(color);
             }
         });
 
+        //Is to add color line chooser
         LineColor.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 JColorChooser Fill = new JColorChooser();
                 Color color = Fill.showDialog(null, "Please choose color", Color.RED);
-                //here could be any shape
+                drawPanel.setLineColor(color);
             }
         });
 
-        // Actions for Buttons
         PlotButton.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 drawPanel.setShapeType(ShapeType.PLOT);
             }
         });
+
+        //Explain........
         LineButton.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 drawPanel.setShapeType(ShapeType.LINE);
             }
         });
+
+        //Explain........
         EllipseButton.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 drawPanel.setShapeType(ShapeType.ELLIPSE);
             }
         });
+
+        //Explain........
         RectangleButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 drawPanel.setShapeType(ShapeType.RECT);
             }
         });
+
+        //Explain........
         PolygonButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -125,41 +170,48 @@ public class VECGUI extends JFrame implements ActionListener, Runnable{
         });
 
      //////////////////////////////////////////////////////////////////////////////////////////////////////////
+
         add(MenuBar, BorderLayout.NORTH);
         MenuBar.add(Menu1);
         MenuBar.add(Menu2);
-
         Menu1.add(OpenFile);
-        // add action
+        Menu1.add(SaveFile);
+        Menu1.add(SaveAs);
+
+        // I'm not really sure if we need those
+        Menu2.add("select");
+        Menu2.add("Rotate left");
+        Menu2.add("Rotate right");
+
+        //add action
         OpenFile.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 onOpenFile();
             }
         });
 
-        Menu1.add(SaveFile);
         // add action
         SaveFile.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 onSaveFile();
             }
         });
 
-        Menu1.add(SaveAs);
         // add action
         SaveAs.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 onSaveAs();
             }
         });
 
-        Menu2.add("select");
-        Menu2.add("Rotate left");
-        Menu2.add("Rotate right");
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
         add(buttonsBox, BorderLayout.WEST);
 
         buttonsBox.add(Box.createVerticalStrut(4));
@@ -177,11 +229,16 @@ public class VECGUI extends JFrame implements ActionListener, Runnable{
         rdioBtnGroup.add(RectangleButton);
         rdioBtnGroup.add(PolygonButton);
 
-     ///////////////////////////////////////////////////////////////////////
-
-
+     /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     }
+
+
+    /**
+     *
+     *
+     *
+     * **/
 
     public void onOpenFile()
     {
@@ -205,15 +262,17 @@ public class VECGUI extends JFrame implements ActionListener, Runnable{
     public void onSaveAs()
     {
         int returVal = OpenFileChoser.showSaveDialog(VECGUI.this);
-        // TODO
+
+        OpenFileChoser.setDialogTitle("Save a File");
         if(returVal == JFileChooser.APPROVE_OPTION)
         {
             saveFile = OpenFileChoser.getSelectedFile();
-            onSaveFile();
+            saveFile.getAbsolutePath();
+
         }
     }
 
-// add action
+
 
 
     @Override
