@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ced314e-fc48-4fea-9b96-0a792a3acf1f" name="Default Changelist" comment="Vector reading canvas used for testing. Contains parsing code for different commands">
+    <list default="true" id="9ced314e-fc48-4fea-9b96-0a792a3acf1f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace-DESKTOP-0C5MHFL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/canvastesting/DrawingBoardWithMatrix$shapeChoice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/vectorReading/Read.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/vectorReading/Scrap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapes.vec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testingArea/vectorReading/Scrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testingArea/vectorReading/Read.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testingArea/vectorReading/TestForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testingArea/vectorReading/TestForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testingArea/vectorReading/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/META-INF/CAB302_CanvasEditor_Assignment2.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/canvastesting/DrawingBoardWithMatrix$PaintSurface$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/canvastesting/DrawingBoardWithMatrix$PaintSurface$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/canvastesting/DrawingBoardWithMatrix$PaintSurface$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/canvastesting/DrawingBoardWithMatrix$PaintSurface$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/canvastesting/DrawingBoardWithMatrix$PaintSurface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/canvastesting/DrawingBoardWithMatrix$PaintSurface.class" afterDir="false" />
@@ -31,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/layoutTesting/MouseDrag.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/testMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CAB302_CanvasEditor_Assignment2/testingArea/testMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testingArea/testMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testingArea/testMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testingArea/vectorReading/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testingArea/vectorReading/Read.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,21 +30,81 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="CAB302_CanvasEditor_Assignment2" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/Read.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+            <state relative-caret-position="391">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testingArea/SwingPaintDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testingArea/JFrameTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testingArea/testMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/TestForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/TestForm.form">
+          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
     </leaf>
@@ -106,19 +153,17 @@
         <option value="$PROJECT_DIR$/src/testingArea/canvastesting/DrawingBoardWithMatrix.java" />
         <option value="$PROJECT_DIR$/src/testingArea/testMain.java" />
         <option value="$PROJECT_DIR$/src/testingArea/vectorReading/TestForm.form" />
+        <option value="$PROJECT_DIR$/src/testingArea/vectorReading/Read.java" />
         <option value="$PROJECT_DIR$/src/testingArea/vectorReading/main.java" />
         <option value="$PROJECT_DIR$/src/testingArea/vectorReading/TestForm.java" />
-        <option value="$PROJECT_DIR$/src/testingArea/vectorReading/Wiring.java" />
-        <option value="$PROJECT_DIR$/src/testingArea/vectorReading/Scrap.java" />
-        <option value="$PROJECT_DIR$/src/testingArea/vectorReading/Read.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="2183" />
+    <option name="height" value="1403" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,8 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,18 +194,35 @@
               <item name="CAB302_CanvasEditor_Assignment2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="testingArea" type="462c0819:PsiDirectoryNode" />
+              <item name="canvastesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CAB302_CanvasEditor_Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAB302_CanvasEditor_Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testingArea" type="462c0819:PsiDirectoryNode" />
               <item name="vectorReading" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CAB302_CanvasEditor_Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAB302_CanvasEditor_Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testingArea" type="462c0819:PsiDirectoryNode" />
+              <item name="vectorReading" type="462c0819:PsiDirectoryNode" />
+              <item name="TestForm" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558589707427" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/302/CAB302_Ass2_GroupRepo/CAB302_CanvasEditor_Assignment2/CAB302_CanvasEditor_Assignment2.iml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558084962488" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../prac10-int-build" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -186,6 +246,32 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Read">
+    <configuration name="DrawingBoardWithMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testingArea.canvastesting.DrawingBoardWithMatrix" />
+      <module name="CAB302_CanvasEditor_Assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingArea.canvastesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameWithCanvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testingArea.canvastesting.FrameWithCanvas" />
+      <module name="CAB302_CanvasEditor_Assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingArea.canvastesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Read" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testingArea.vectorReading.Read" />
       <module name="CAB302_CanvasEditor_Assignment2" />
@@ -212,32 +298,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wiring (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guiExploration.Wiring" />
-      <module name="CAB302_CanvasEditor_Assignment2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guiExploration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Wiring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testingArea.vectorReading.Wiring" />
-      <module name="CAB302_CanvasEditor_Assignment2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testingArea.vectorReading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testingArea.vectorReading.main" />
       <module name="CAB302_CanvasEditor_Assignment2" />
@@ -252,19 +312,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Read" />
-      <item itemvalue="Application.TestForm" />
-      <item itemvalue="Application.Wiring (1)" />
-      <item itemvalue="Application.Wiring" />
+      <item itemvalue="Application.DrawingBoardWithMatrix" />
+      <item itemvalue="Application.FrameWithCanvas" />
       <item itemvalue="Application.main" />
+      <item itemvalue="Application.TestForm" />
+      <item itemvalue="Application.Read" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Read" />
-        <item itemvalue="Application.Wiring" />
-        <item itemvalue="Application.Wiring (1)" />
         <item itemvalue="Application.TestForm" />
         <item itemvalue="Application.main" />
+        <item itemvalue="Application.DrawingBoardWithMatrix" />
+        <item itemvalue="Application.FrameWithCanvas" />
       </list>
     </recent_temporary>
   </component>
@@ -279,38 +339,30 @@
       <option name="presentableId" value="Default" />
       <updated>1556705270503</updated>
     </task>
-    <task id="LOCAL-00001" summary="Vector reading canvas used for testing. Contains parsing code for different commands">
-      <created>1558966628614</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1558966628614</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.20415778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.18494624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" weight="0.32995737" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19427148" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19551681" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32827735" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -320,11 +372,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testing vector reading." />
-    <MESSAGE value="Vector reading canvas used for testing. Contains parsing code for different commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vector reading canvas used for testing. Contains parsing code for different commands" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/testingArea/multiTabbing.java" />
@@ -446,24 +493,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testingArea/JFrameTest.java">
+    <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/TestForm.form" />
-    <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/TestForm.java" />
-    <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/Wiring.java" />
-    <entry file="file://$PROJECT_DIR$/src/testingArea/testMain.java">
+    <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/Read.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        <state relative-caret-position="391">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -477,26 +521,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/Scrap.java">
+    <entry file="file://$PROJECT_DIR$/src/testingArea/JFrameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="92" column="54" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CAB302_CanvasEditor_Assignment2.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/302/CAB302_Ass2_GroupRepo/CAB302_CanvasEditor_Assignment2/CAB302_CanvasEditor_Assignment2.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/Read.java">
+    <entry file="file://$PROJECT_DIR$/src/testingArea/testMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/TestForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testingArea/vectorReading/TestForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

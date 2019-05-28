@@ -95,33 +95,6 @@ public class Read extends JFrame implements ActionListener, Runnable {
      *
      */
 
-    //public static void InputCommands(){
-        ArrayList<String> commands = new ArrayList<String>();
-    //}
-
-    /*public static void fileChooser() {
-
-        JFileChooser chooseFile = new JFileChooser();
-        FileNameExtensionFilter vecFilter = new FileNameExtensionFilter(
-                ".vec", "vec");
-        chooseFile.setFileFilter(vecFilter);
-
-        int file = chooseFile.showOpenDialog(null);
-        if (file == JFileChooser.APPROVE_OPTION) {
-            File input = new File(String.valueOf(chooseFile.getSelectedFile()));
-            try {
-                Scanner scan = new Scanner(input);
-                while (scan.hasNext()) {
-                    String vector = scan.next();
-
-                    System.out.println(vector);
-                }
-            } catch (FileNotFoundException e) {
-                System.out.println(e.getMessage());
-            }
-        }
-    }*/
-
     public static void fileChooser1() {
 
         JFileChooser chooseFile = new JFileChooser();
@@ -141,44 +114,47 @@ public class Read extends JFrame implements ActionListener, Runnable {
 
                     String paintAction = line[0];
 
-                    if(paintAction == "LINE"){
-                        int x = Integer.parseInt(line[1]);
-                        int y = Integer.parseInt(line[2]);
-                        int x1 = Integer.parseInt(line[3]);
-                        int y2 = Integer.parseInt(line[4]);
-                    }
-
-                    else if(paintAction == "PLOT"){
-                        int x = Integer.parseInt(line[1]);
-                        int y = Integer.parseInt(line[2]);
-                    }
-
-                    else if(paintAction == "RECTANGLE"){
-                        int x = Integer.parseInt(line[1]);
-                        int y = Integer.parseInt(line[2]);
-                        int x1 = Integer.parseInt(line[3]);
-                        int y2 = Integer.parseInt(line[4]);
-                    }
-
-                    else if(paintAction == "ELLIPSE"){
-                        int x = Integer.parseInt(line[1]);
-                        int y = Integer.parseInt(line[2]);
-                        int x1 = Integer.parseInt(line[3]);
-                        int y2 = Integer.parseInt(line[4]);
-                    }
-
-                    else if(paintAction == "PEN"){
-                        String code = line[1];
-                    }
-
-                    else if(paintAction == "FILL"){
-                        String command = line[1];
-                    }
-
+                    drawLine(paintAction, line);
                 }
             } catch (FileNotFoundException e) {
                 System.out.println(e.getMessage());
             }
+        }
+    }
+
+    public static void drawLine(String paintAction, String[] line){
+        if(paintAction == "LINE"){
+            int x = Integer.parseInt(line[1]);
+            int y = Integer.parseInt(line[2]);
+            int x1 = Integer.parseInt(line[3]);
+            int y2 = Integer.parseInt(line[4]);
+        }
+
+        else if(paintAction == "PLOT"){
+            int x = Integer.parseInt(line[1]);
+            int y = Integer.parseInt(line[2]);
+        }
+
+        else if(paintAction == "RECTANGLE"){
+            int x = Integer.parseInt(line[1]);
+            int y = Integer.parseInt(line[2]);
+            int x1 = Integer.parseInt(line[3]);
+            int y2 = Integer.parseInt(line[4]);
+        }
+
+        else if(paintAction == "ELLIPSE"){
+            int x = Integer.parseInt(line[1]);
+            int y = Integer.parseInt(line[2]);
+            int x1 = Integer.parseInt(line[3]);
+            int y2 = Integer.parseInt(line[4]);
+        }
+
+        else if(paintAction == "PEN"){
+            String code = line[1];
+        }
+
+        else if(paintAction == "FILL"){
+            String command = line[1];
         }
     }
 
@@ -191,7 +167,6 @@ public class Read extends JFrame implements ActionListener, Runnable {
         g.setColor(Color.decode(Colour));
         Shape l = new Line2D.Double((0.0 * WIDTH), (0.0 * HEIGHT), (1.0 * WIDTH), (1.0 * HEIGHT));
         g2.draw(l);
-
     }
 
     @Override
